@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "532794363683",
+    "firebase_url": "https://myjopyeni-master.firebaseio.com",
+    "project_id": "myjopyeni-master",
+    "storage_bucket": "myjopyeni-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532794363683:android:041383c7df392220d90696",
+        "android_client_info": {
+          "package_name": "com.example.sedae.myjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532794363683-2jr7qobl66j4auh73uan150k9fphtc1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sedae.myjob",
+            "certificate_hash": "79f7e87dc5a619a936bea634a574e4fed61b484b"
+          }
+        },
+        {
+          "client_id": "532794363683-jiv7me7jajnfhvel9ti9o50h95j3rog1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbtZ6qn9P7sNe5Al9z51k4EU0KjwB1fdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532794363683-jiv7me7jajnfhvel9ti9o50h95j3rog1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

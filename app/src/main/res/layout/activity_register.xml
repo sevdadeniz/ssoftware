@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7f6f5"
+    android:orientation="vertical"
+    android:paddingTop="25dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/kaydol_yazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Biz hazırız sende hazırsan"
+        android:textColor="@color/text"
+        android:textSize="19dp" />
+
+
+    <TextView
+        android:id="@+id/kaydol_yazi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Hemen Kaydol!"
+        android:textColor="@color/text"
+        android:textSize="38dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginLeft="13dp"
+        >
+        <EditText
+            android:id="@+id/isim"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="İsim"
+            android:inputType="text"
+            android:textColor="@color/text2"
+            android:textSize="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="13dp"
+
+        >
+        <EditText
+            android:id="@+id/soyisim"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:hint="Soyisim"
+            android:ems="10"
+            android:textColor="@color/text2"
+            android:inputType="text"
+            android:textSize="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="8dp"
+
+        >
+        <EditText
+            android:id="@+id/kullaniciadi"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/text2"
+            android:hint="Kullanıcı Adı"
+            android:inputType="text"
+            android:textSize="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="8dp"
+
+        >
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:hint="Email"
+            android:ems="10"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/text2"
+            android:inputType="textEmailSubject"
+            android:textSize="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="8dp"
+
+        >
+        <EditText
+            android:id="@+id/sifre"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:hint="Şifre"
+            android:layout_marginLeft="13dp"
+            android:ems="10"
+            android:textColor="@color/text2"
+            android:inputType="textPassword"
+            android:textSize="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="8dp"
+
+        >
+        <EditText
+            android:id="@+id/sifreyeniden"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:hint="Şifre Doğrula"
+            android:layout_marginLeft="13dp"
+            android:ems="10"
+            android:textColor="@color/text2"
+            android:inputType="textPassword"
+            android:textSize="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/cinsiyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiogrup"
+            android:textColor="@color/text2"
+            android:textSize="15dp"
+            />
+
+        <RadioButton
+            android:id="@+id/kadin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiokadin"
+            android:textSize="15dp"
+            android:textColor="@color/text2"
+            android:layout_marginLeft="10dp"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/erkek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text2"
+            android:text="@string/radioerkek"
+            android:textSize="15dp"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/kaydol"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:text="Kaydol"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/color_bg"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/hesab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:text="Zaten Hesabın Varsa"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/girisyap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_below="@+id/hesab"
+            android:layout_centerHorizontal="true"
+            android:text="Giriş Yap"
+            android:textSize="15dp" />
+    </RelativeLayout>
+</LinearLayout>

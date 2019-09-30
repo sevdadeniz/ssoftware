@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/giris_yazisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Tecrübeleriniz işiniz olsun!"
+        android:textColor="@color/text"
+        android:textSize="40dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/etLogMail"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:drawableLeft="@drawable/user"
+            android:hint="Kullanıcı Adı veya Email"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/text2"
+            android:ems="10"
+            android:inputType="textEmailSubject"
+            android:textSize="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        >
+        <EditText
+            android:id="@+id/etLogPass"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:drawableLeft="@drawable/lock"
+            android:hint="Şifre"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/text2"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/logbuton"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="20dp"
+        android:text="Giriş"
+        android:textSize="15dp"
+        android:textColor="@color/text2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buton_radius"
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="125dp"
+        android:text="Şifremi unuttum"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:layout_marginLeft="75dp"
+        android:text="Hesabın yok mu? Şimdi kaydol!"
+        android:textSize="15dp" />
+
+</LinearLayout>

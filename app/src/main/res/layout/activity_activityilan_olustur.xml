@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityilanOlustur"
+    android:background="@color/background"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/ilanyazisi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:text="Haydi ilanını oluştur!"
+        android:textColor="@color/text"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/etilanAdi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ilanolustur_edittext"
+        android:hint="İlan Başlığı Girin"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etilanAciklama"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ilanolustur_edittext"
+        android:hint="İlan Açıklamasi Girin"
+        android:inputType="textImeMultiLine"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="İlanın için gerekli dosyayı ekle."
+        android:textColor="@color/text2"
+
+        />
+
+    <Button
+        android:id="@+id/btn_dosyaekle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ilanolustur_btn"
+        android:text="Dosya Ekle"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:id="@+id/btn_ilankaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ilanolustur_btn"
+        android:text="Yayınla"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

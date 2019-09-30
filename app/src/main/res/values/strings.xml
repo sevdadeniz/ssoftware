@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyJob</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- spinner için -->
+    <string name="kul_onay">Kullanıcı Onayladı.</string>
+
+    <string name="profil_blg">Bilgiler</string>
+    <string name="profil_ytn">Yetenekler</string>
+    <string name="profil_iln">İlanlar</string>
+    <string name="radiokadin">Kadın</string>
+    <string name="radioerkek">Erkek</string>
+    <string name="radiogrup">Cinsiyet</string>
+    <string name="btnLogout">Çıkış Yap</string>
+    <string name="kullaniciadi">KullanıcıAdı</string>
+    <string name="cinsiyetBilgisi">Cinsiyet</string>
+    <string name="isim">İsim</string>
+    <string name="soyisim">Soyisim</string>
+    <string-array name="cinsiyet">
+        <item>Kadın</item>
+        <item>Erkek</item>
+        <item>Belirtmek İstemiyorum</item>
+    </string-array>
+
+</resources>
